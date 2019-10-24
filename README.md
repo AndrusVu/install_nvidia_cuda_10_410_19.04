@@ -65,6 +65,8 @@ sudo ln -s /usr/bin/g++-6 /usr/local/cuda-10.0/bin/g++
 ```
 ### Download cudnn 7.6 from Nvidia's cudnn [website](https://developer.nvidia.com/rdp/cudnn-download)
 ```
+sudo dpkg -i libcudnn7_7.4.2.24-1+cuda10.0_amd64.deb
+# or
 sudo dpkg -i libcudnn7_7.6.3.30-1+cuda10.0_amd64.deb 
 ```
 
