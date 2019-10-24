@@ -24,7 +24,8 @@ gcc --version
 sudo apt install make 
 sudo apt install gcc-6 g++-6 freeglut3-dev libxmu-dev libpcap-dev 
 ```
-# Below step to install nvidia display driver is not important because it comes with cuda-toolkit, so you directly start from `Install cuda toolkit and cuda`
+
+### Below step to install nvidia display driver is not important because it comes with cuda-toolkit, so you directly start from `Install cuda toolkit and cuda`
 ```
 wget http://us.download.nvidia.com/XFree86/Linux-x86_64/410.66/NVIDIA-Linux-x86_64-410.66.run 
 sudo chmod +x NVIDIA-Linux-x86_64-410.66.run  
